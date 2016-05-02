@@ -4,6 +4,7 @@
 }
 .navbar-default .navbar-nav>li>a {
 	color: #B7B7B7;
+	text-decoration: none;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 	color: white;
@@ -20,6 +21,33 @@
 	padding: 2% 0;
 }
 .logo{
-	margin-top: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	max-width: 100%;
 }
 /* FOOTER BASE*/
+.bg-footer{
+	background-color: #3D6C8F;
+	padding: 2%;
+}
+a{
+	color: #B7B7B7;
+	text-decoration: none;
+}
+.text-gray{
+	color: #B7B7B7;
+}
+a:hover{
+	color: white;
+	background-color: rgba(90, 90, 90, 0.8);
+	border-radius: 15px;
+}
+.linksfooter{
+	display: block;
+}
+.date{
+	font-size: 10px;
+}
+.media-left{
+	max-width: 100%;
+}
