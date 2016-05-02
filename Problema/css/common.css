@@ -1,0 +1,25 @@
+/* HEADER BASE */
+.bg-header{
+	background-color: #3A5E79;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #B7B7B7;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: white;
+	background-color: rgba(90, 90, 90, 0.8);
+	border-radius: 15px;
+}
+.navbar-default .navbar-brand {
+	color: white;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+	color: white;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	padding: 2% 0;
+}
+.logo{
+	margin-top: 10%;
+}
+/* FOOTER BASE*/
