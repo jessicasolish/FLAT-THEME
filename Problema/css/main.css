@@ -16,8 +16,21 @@
 .verde{
 	background-color: #34CC63;
 	color: white;
+	padding: 20px 0px 30px 0px;
 }
-.img-responsive{
-	display: table;
+.breadcrumb{
+	background-color: #34CC63;
+	color: #E9E6E6;
+	font-size: 16px;
+	padding-top: 30px;
+}
+.img{
+	display: inline;
+	float: left;
+	padding: 10px 5px 20px 5px;
+	font-size: 16px;
+	border:solid #F3EBEB;
+	margin: 10px 2px;
+	color: #4D5472;
 }
 
