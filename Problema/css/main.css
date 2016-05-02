@@ -13,3 +13,11 @@
 .clearfix:after {
   clear: both;
 }
+.verde{
+	background-color: #34CC63;
+	color: white;
+}
+.img-responsive{
+	display: table;
+}
+
