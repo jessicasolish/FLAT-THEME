@@ -7,9 +7,10 @@
     <meta name="author" content="">
     <title>Home | Flat Theme</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -22,7 +23,132 @@
   </head>
   <body>
     <!-- Inserte código aqui -->
+    <!-- HEADER --> 
+    <header>
+        <div class="container-fluid bg-header">
+             <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png" alt=""></a>
+                    </div>
 
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact-us.html">Contact</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+    </header> 
+    <!-- HEADER --> 
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="container-fluid bg-footer">
+            <div class="container text-gray">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <h4>About Us</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi at doloremque, rem minus nostrum facilis ea! Non deleniti est, facere nobis quisquam nisi voluptatem reprehenderit quas, aperiam illum aspernatur explicabo?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-2">
+                        <h4>Company</h4>
+                        <a class="linksfooter" href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> The Company</a>
+                        <a class="linksfooter" href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Our Team</a>
+                        <a class="linksfooter" href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Our Partners</a>
+                        <a class="linksfooter" href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Our Services</a>
+                        <a class="linksfooter" href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Faq</a>
+                        <a class="linksfooter" href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Contact Us</a>
+                        <a class="linksfooter" href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Privacy</a>
+                        <a class="linksfooter" href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Terms of Use</a>
+                        <a class="linksfooter" href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Copyright</a>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <h4>Lastest Blog</h4>
+                        <div class="pull-right">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="images/blog/thumb1.jpg">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis cumque.</p>
+                                    <p class="date">Posted 17 Agu 2013</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="images/blog/thumb2.jpg">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum praesentium omnis.</p>
+                                    <p class="date">Posted 13 sep 2013</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="images/blog/thumb3.jpg">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p class="date">Posted 11 Jul 2013</p>
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <h4>Address</h4>
+                        <p><b>Twitter, Inc.</b></p>
+                        <p>795 Folsom Ave,Suite 600</p>
+                        <p>San Francisco, CA 94107</p>
+                        <p>P:(123)456-7890</p>
+                        <h4>Newsletter</h4>
+                        <form class="navbar-form" role="search">
+                             <div class="form-group">
+                                 <input type="text" class="form-control" placeholder="Search">
+                                 <button type="submit" class="btn btn-default">Go!</button>
+                            </div>
+                        </form> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-header">
+            <div class="container text-gray">
+                <div class="copyright">
+                   <p><span class="fa fa-copyright"></span>
+                    ShapeBootstrap. All Rights Reserved</p>
+                </div>
+                <ul class="nav nav-pills navbar-right">
+                    <li role="presentation"><a href="index.html">Home</a></li>
+                    <li role="presentation"><a href="about-us.html">About Us</a></li>
+                    <li role="presentation"><a href="contact-us.html">Contact Us</a></li>
+                    <li role="presentation"><a href="index.html"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+     <!-- FOOTER -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
