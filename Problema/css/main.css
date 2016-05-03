@@ -15,8 +15,9 @@
 .clearfix:after {
   clear: both;
 }
+<<<<<<< HEAD
 .verde{
-	background-color: #34CC63;
+	background-color: #04C262;
 	color: white;
 	padding: 20px 0px 30px 0px;
 }
@@ -39,7 +40,8 @@
 /*inicio de css services*/
 .what{
 	text-align: center;
-	color: #695D5D;
+	color:#433E3E ;
+	padding: 20px;
 }
 i{
 	background-color: #897D7D;
@@ -54,7 +56,38 @@ i{
 	padding-left: 20px;
 	margin-top: 20px;
 }
+.service {
+	margin: 3% 0;
+}
 
-
-
+ /* SECTION */
+ .bg-img{
+ 	background-image: url(../images/slider/bg1.jpg);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	height: 550px;
+ 	width: 100%;
+ 	margin: 0 auto;
+ }
+ .title{
+ 	color: white;
+ 	padding-top: 20%;
+ }
+  .title h1{
+ 	font-size: 40px;
+ }
+ .icons{
+ 	font-size: 50px;
+ 	height: 70px;
+ 	width: 70px;
+ 	text-align: center;
+ 	border-radius: 100%;
+ }
+ .fa-google-plus{
+ 	font-size: 45px;
+ }
+ .media.twitter.col-xs-12.col-sm-4.col-md-4 {
+ 	padding-top: 1%;
+ }
+  /* SECTION */
 

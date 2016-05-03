@@ -1,0 +1,89 @@
+/* INICIO HEADER  */
+.bg-header{
+	background-color: #3A5E79;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #B7B7B7;
+	text-decoration: none;
+}
+.navbar{
+	margin-bottom: 0;
+	border: none;
+	padding-bottom: 2%;
+	background-color: #3A5E79;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: white;
+	background-color: rgba(90, 90, 90, 0.8);
+	border-radius: 15px;
+}
+.navbar .navbar-default .navbar-brand {
+	color: white;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+	color: white;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	padding: 2% 0;
+}
+.logo{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	max-width: 100%;
+}
+/* FIN HEADER */
+/* INICIO FOOTER*/
+.bg-footer{
+	background-color: #3D6C8F;
+	padding: 2%;
+}
+a{
+	color: #B7B7B7;
+	text-decoration: none;
+}
+.text-gray{
+	color: #B7B7B7;
+}
+a:hover{
+	color: white;
+	background-color: rgba(90, 90, 90, 0.8);
+	border-radius: 15px;
+}
+.linksfooter{
+	display: block;
+}
+.date{
+	font-size: 10px;
+}
+.media-left{
+	max-width: 100%;
+}
+.navbar-form .form-control {
+	max-width: 70%;
+}
+.btn-default {
+	color: #B7B7B7;
+    background-color: #F13531;
+    border-color: #F61717;
+}
+.btn-default:hover {
+	color: #B7B7B7;
+	background-color: rgba(241, 7, 7, 0.7);
+    border-color: #F61717;
+}
+.copyright{
+	padding-top: 5%;
+}
+.nav-pills li a:hover{
+	color: white;
+	background-color: rgba(90, 90, 90, 0.8);
+	border-radius: 15px;
+}
+/* FIN FOOTER */
+.bg-green{
+	background-color: #04C262;
+	padding: 5% 0;
+}
+.bg-darkgreen{
+	background-color: #036433;
+}
