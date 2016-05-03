@@ -1,7 +1,9 @@
+/* comienzo de jessica */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
 .clearfix {
   *zoom: 1;
+  tex
 }
 
 .clearfix:before,
@@ -33,4 +35,26 @@
 	margin: 10px 2px;
 	color: #4D5472;
 }
+/* termino de jessica */
+/*inicio de css services*/
+.what{
+	text-align: center;
+	color: #695D5D;
+}
+i{
+	background-color: #897D7D;
+	border-radius: 60px;
+	width: 90px;
+	height: 90px;
+	padding: 25px;
+	color: white;
+}
+.window{
+	color: #3D3B3B;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+
+
+
 
