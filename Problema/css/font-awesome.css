@@ -1,4 +1,5 @@
 /*!
+<<<<<<< HEAD
  *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
@@ -8,6 +9,17 @@
   font-family: 'FontAwesome';
   src: url('../fonts/fontawesome-webfont.eot?v=4.5.0');
   src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+=======
+ *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+>>>>>>> d53cbaaf3f3bfaa2d77f5c46ac968e92e3d7441d
   font-weight: normal;
   font-style: normal;
 }
@@ -18,6 +30,10 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
+=======
+  transform: translate(0, 0);
+>>>>>>> d53cbaaf3f3bfaa2d77f5c46ac968e92e3d7441d
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
@@ -64,6 +80,7 @@
   border: solid 0.08em #eeeeee;
   border-radius: .1em;
 }
+<<<<<<< HEAD
 .fa-pull-left {
   float: left;
 }
@@ -77,6 +94,8 @@
   margin-left: .3em;
 }
 /* Deprecated as of 4.4.0 */
+=======
+>>>>>>> d53cbaaf3f3bfaa2d77f5c46ac968e92e3d7441d
 .pull-right {
   float: right;
 }
@@ -640,7 +659,10 @@
 .fa-credit-card:before {
   content: "\f09d";
 }
+<<<<<<< HEAD
 .fa-feed:before,
+=======
+>>>>>>> d53cbaaf3f3bfaa2d77f5c46ac968e92e3d7441d
 .fa-rss:before {
   content: "\f09e";
 }
@@ -1522,8 +1544,11 @@
 .fa-git:before {
   content: "\f1d3";
 }
+<<<<<<< HEAD
 .fa-y-combinator-square:before,
 .fa-yc-square:before,
+=======
+>>>>>>> d53cbaaf3f3bfaa2d77f5c46ac968e92e3d7441d
 .fa-hacker-news:before {
   content: "\f1d4";
 }
@@ -1548,6 +1573,10 @@
 .fa-history:before {
   content: "\f1da";
 }
+<<<<<<< HEAD
+=======
+.fa-genderless:before,
+>>>>>>> d53cbaaf3f3bfaa2d77f5c46ac968e92e3d7441d
 .fa-circle-thin:before {
   content: "\f1db";
 }
@@ -1752,7 +1781,10 @@
 .fa-mercury:before {
   content: "\f223";
 }
+<<<<<<< HEAD
 .fa-intersex:before,
+=======
+>>>>>>> d53cbaaf3f3bfaa2d77f5c46ac968e92e3d7441d
 .fa-transgender:before {
   content: "\f224";
 }
@@ -1780,9 +1812,12 @@
 .fa-neuter:before {
   content: "\f22c";
 }
+<<<<<<< HEAD
 .fa-genderless:before {
   content: "\f22d";
 }
+=======
+>>>>>>> d53cbaaf3f3bfaa2d77f5c46ac968e92e3d7441d
 .fa-facebook-official:before {
   content: "\f230";
 }
@@ -1817,6 +1852,7 @@
 .fa-medium:before {
   content: "\f23a";
 }
+<<<<<<< HEAD
 .fa-yc:before,
 .fa-y-combinator:before {
   content: "\f23b";
@@ -2084,3 +2120,5 @@
 .fa-percent:before {
   content: "\f295";
 }
+=======
+>>>>>>> d53cbaaf3f3bfaa2d77f5c46ac968e92e3d7441d

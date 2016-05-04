@@ -1,0 +1,12 @@
+.breadcrumb {
+	background-color:transparent;
+}
+.title{
+	color:white;
+}
+.entrance{
+	padding: 2%;
+}
+.entrance li{
+	display: inline;
+	margin: 5%;
