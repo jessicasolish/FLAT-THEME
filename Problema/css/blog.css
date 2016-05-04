@@ -25,4 +25,24 @@
 .botton-blog.btn.btn-default.btn-sm a{
 	color: #9C9C9C;
 }
-
+.sidebar{
+	margin-top: 5%;	
+}
+.navbar-blog .form-control input{
+	max-width: 90%;
+}
+.littlepics{
+	display: inline-block;
+	max-width: 150px;
+	width: 100%;
+	margin-top: 5%;
+}
+.links-blog a {
+	color:black;
+}
+.btn-group.tags.btn.btn-default button{
+	background-color: #559BEA;
+	border: solid#044C84;
+	color: white;
+	margin: 2%;
+}
