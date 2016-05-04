@@ -38,7 +38,7 @@
 	padding: 2%;
 }
 a{
-	color: #B7B7B7;
+	color: #ECEBEB;
 	text-decoration: none;
 }
 .text-gray{
@@ -82,14 +82,11 @@ a:hover{
 /* FIN FOOTER */
 .bg-green{
 	background-color: #04C262;
-	padding: 5% 0;
+	padding: 2% 0;
 }
 .bg-darkgreen{
 	background-color: #036433;
-<<<<<<< HEAD
-=======
 }
 .bg-red{
 	background-color: rgba(241, 7, 7, 0.8);
->>>>>>> d53cbaaf3f3bfaa2d77f5c46ac968e92e3d7441d
 }
