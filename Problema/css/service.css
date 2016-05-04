@@ -18,12 +18,17 @@ i{
 .service {
 	margin: 1% 0;
 }
-.port{
+.verde{
+	background-color: #04C262;
 	color: white;
-	height: 
+	padding: 20px 0px 30px 0px;
 }
-.we{
-	color: #394053
+.breadcrumb{
+	background-color: transparent;
+	color: white;
+	font-size: 16px;
+	padding-top: 30px;
+	margin: 0;
 }
 
 

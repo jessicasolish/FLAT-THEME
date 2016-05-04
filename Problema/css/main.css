@@ -22,10 +22,11 @@
 	padding: 20px 0px 30px 0px;
 }
 .breadcrumb{
-	background-color: #34CC63;
-	color: #E9E6E6;
+	background-color: transparent;
+	color: white;
 	font-size: 16px;
 	padding-top: 30px;
+	margin: 0;
 }
 .img{
 	display: inline;
@@ -36,6 +37,7 @@
 	margin: 10px 2px;
 	color: #4D5472;
 }
+
 /* termino de jessica */
 /*inicio de css services*/
 .what{
@@ -61,6 +63,76 @@ i{
 }
 
  /* SECTION */
+ /*about*/
+ .port{
+	color: white;
+	height: 
+}
+.we{
+	color: #394053
+}.port{
+	color: white;
+	height: 
+}
+.we{
+	color: #394053
+}
+.azul{
+	background-color: #103CDB;
+	border-radius: 50px;
+	width: 10px;
+	height: 10px;
+	color: white;
+	padding: 20px;
+	margin-left: 10px;
+}
+.rojo{
+	background-color: #F91017;
+	border-radius: 50px;
+	width: 10px;
+	height: 10px;
+	color: white;
+	padding: 20px;
+	margin-left: 10px;
+}
+.calipso{
+	background-color: #10C9DB;
+	border-radius: 50px;
+	width: 10px;
+	height: 10px;
+	color: white;
+	padding: 20px;
+	margin-left: 10px;
+}
+.celeste{
+	background-color: #0A78B3;
+	border-radius: 50px;
+	width: 10px;
+	height: 10px;
+	color: white;
+	padding: 20px;
+	margin-left: 10px;
+}
+.joven{
+	padding: 40px 0px;
+	background-color: #F7F2F2;
+	right: 10px;
+}
+.imagen {
+	border: 3px solid white;
+}
+.senior{
+	opacity: 0.3;
+}
+.img-circle{
+	margin-left: 30px;
+}
+
+/*termino de about us*/
+.contact{
+	margin: 30px;
+}
+/*inicio de contac-us*/
  .bg-img{
  	background-image: url(../images/slider/bg1.jpg);
  	background-size: cover;

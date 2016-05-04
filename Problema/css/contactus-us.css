@@ -1,3 +1,7 @@
+.contact{
+	margin:30px;
+	padding: 20px;
+}
 .verde{
 	background-color: #04C262;
 	color: white;
@@ -10,12 +14,15 @@
 	padding-top: 30px;
 	margin: 0;
 }
-.img{
-	display: inline;
-	float: left;
-	padding: 10px 5px 20px 5px;
-	font-size: 16px;
-	border:solid #F3EBEB;
-	margin: 10px 2px;
-	color: #4D5472;
+.boton.btn.btn-default {
+	background-color: #3E5EEB;
+	color: white;
+	border:none;
+}
+.message{
+	top: 60px;
+}
+.mapa{
+	height: 222px;
+	width: 450px;
 }
