@@ -40,9 +40,13 @@
 .links-blog a {
 	color:black;
 }
-.btn-group.tags.btn.btn-default button{
+
+.tags{
+	border-radius: 10px;
 	background-color: #559BEA;
-	border: solid#044C84;
+	border:1px solid #044C84;
 	color: white;
-	margin: 2%;
+	margin: 1%;
+	font-size: 10px;
+	padding: 2%;
 }
